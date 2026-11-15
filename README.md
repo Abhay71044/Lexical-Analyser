@@ -128,6 +128,21 @@ When a lexical error is encountered, the scanner:
 - GCC compiler with C11 support (`gcc -std=c11`)
 - GNU Make (`make` or `mingw32-make`)
 
+### Quick Commands
+```bash
+# Build the project
+make all
+
+# Run the default sample
+make run
+
+# Run all 6 test suites
+make test
+
+# Clean build artifacts
+make clean
+```
+
 ### Make Targets
 - `make all`: Compiles the executable `lexer` (or `lexer.exe` on Windows).
 - `make run`: Compiles and runs the lexer on `tests/test1_basic.c`.

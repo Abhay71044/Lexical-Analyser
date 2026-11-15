@@ -1,0 +1,10 @@
+# Build artifacts
+*.o
+lexer
+lexer.exe
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
